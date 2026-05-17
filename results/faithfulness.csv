@@ -1,0 +1,9 @@
+k,features,rmse
+1,['Shell_weight'],2.5083444571855664
+2,"['Shell_weight', 'Shucked_weight']",2.5868852152211423
+3,"['Shell_weight', 'Shucked_weight', 'Whole_weight']",2.541747566144687
+4,"['Shell_weight', 'Shucked_weight', 'Whole_weight', 'Diameter']",2.444852157990821
+5,"['Shell_weight', 'Shucked_weight', 'Whole_weight', 'Diameter', 'Length']",2.4252160438179304
+6,"['Shell_weight', 'Shucked_weight', 'Whole_weight', 'Diameter', 'Length', 'Viscera_weight']",2.404243722757318
+7,"['Shell_weight', 'Shucked_weight', 'Whole_weight', 'Diameter', 'Length', 'Viscera_weight', 'Height']",2.4490039980736182
+8,"['Shell_weight', 'Shucked_weight', 'Whole_weight', 'Diameter', 'Length', 'Viscera_weight', 'Height', 'Sex']",2.4570144628488033
