@@ -62,26 +62,26 @@ Output: results/shap_plots/{model}_bar.png, results/shap_plots/{model}_beeswarm.
 
 shap-abalone-bench/
 ├── data/
-│   ├── abalone.csv              # processed dataset used by all scripts
-│   └── abalone/                 # raw UCI files (data, names, index)
+│   ├── abalone.csv
+│   └── abalone/
 ├── models/
 │   ├── xgboost.pkl
 │   ├── lightgbm.pkl
 │   ├── random_forest.pkl
 │   ├── mlp.pkl
-│   ├── scaler.pkl                # StandardScaler fit on training data
-│   └── test_data.pkl              # held-out X_test, y_test, feature names
+│   ├── scaler.pkl
+│   └── test_data.pkl
 ├── results/
 │   ├── stability_boxplot.png
 │   ├── stability_ranks.csv
 │   ├── faithfulness_curve.png
 │   ├── faithfulness.csv
-│   └── shap_plots/                # per-model bar/beeswarm plots + raw SHAP arrays
+│   └── shap_plots/
 ├── src/
-│   ├── data_loader.py             # fetches and encodes the Abalone dataset
-│   ├── train_models.py            # trains all four models, logs to mlflow
-│   ├── shap_explainer.py          # computes and plots SHAP values per model
-│   └── experiments.py             # stability and faithfulness experiments
+│   ├── data_loader.py
+│   ├── train_models.py
+│   ├── shap_explainer.py
+│   └── experiments.py
 └── requirements.txt
 
 ## Installation
