@@ -142,6 +142,3 @@ From a full run of the faithfulness experiment on XGBoost, RMSE by number of top
 | 8 (+ Sex) | 2.457 |
 
 Shell_weight alone captures most of the predictive signal, and RMSE bottoms out around the top six features, roughly consistent with SHAP's ranking of feature importance.
-## License
-
-No license file is currently included in this repository. Add one (for example MIT or Apache 2.0) if you intend for others to reuse or contribute to this code.
