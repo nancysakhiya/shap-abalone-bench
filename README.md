@@ -61,28 +61,28 @@ Output: results/shap_plots/{model}_bar.png, results/shap_plots/{model}_beeswarm.
 ## Project structure
 
 shap-abalone-bench/
-├── data/
-│   ├── abalone.csv
-│   └── abalone/
-├── models/
-│   ├── xgboost.pkl
-│   ├── lightgbm.pkl
-│   ├── random_forest.pkl
-│   ├── mlp.pkl
-│   ├── scaler.pkl
-│   └── test_data.pkl
-├── results/
-│   ├── stability_boxplot.png
-│   ├── stability_ranks.csv
-│   ├── faithfulness_curve.png
-│   ├── faithfulness.csv
-│   └── shap_plots/
-├── src/
-│   ├── data_loader.py
-│   ├── train_models.py
-│   ├── shap_explainer.py
-│   └── experiments.py
-└── requirements.txt
+- data/
+  - abalone.csv
+  - abalone/
+- models/
+  - xgboost.pkl
+  - lightgbm.pkl
+  - random_forest.pkl
+  - mlp.pkl
+  - scaler.pkl
+  - test_data.pkl
+- results/
+  - stability_boxplot.png
+  - stability_ranks.csv
+  - faithfulness_curve.png
+  - faithfulness.csv
+  - shap_plots/
+- src/
+  - data_loader.py
+  - train_models.py
+  - shap_explainer.py
+  - experiments.py
+- requirements.txt
 
 ## Installation
 
